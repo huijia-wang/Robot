@@ -1,0 +1,38 @@
+关于“机器人手、灵巧手、抓取、触觉感知和操作”，论文通常分散在综合机器人期刊与触觉/机构类期刊中。先记住下面这些名称就够了。
+
+### 知名期刊
+
+| 正式名称 | 缩写 | 与机器人手的关系 |
+|---|---|---|
+| [IEEE Transactions on Robotics](https://www.ieee-ras.org/publications/t-ro/) | T-RO | 顶级综合机器人期刊；灵巧抓取、手内操作、触觉控制 |
+| [The International Journal of Robotics Research](https://journals.sagepub.com/home/IJR) | IJRR | 顶级综合机器人期刊；机器人操作、学习与控制 |
+| [IEEE Robotics and Automation Letters](https://www.ieee-ras.org/publications/ieee-robotics-and-automation-letters/) | RA-L | 机器人手论文很多；篇幅较短、发表相对快 |
+| [Science Robotics](https://www.science.org/journal/scirobotics) | Sci. Robotics | 高影响力；新型灵巧手、软体手、感知与智能操作 |
+| [IEEE Transactions on Haptics](https://www.ieee-ras.org/publications/) | ToH | 触觉传感、力反馈、电子皮肤、人机触觉交互 |
+| [ASME Journal of Mechanisms and Robotics](https://www.asme.org/get-involved/groups-sections-and-technical-divisions/technical-divisions/technical-divisions-community-pages/design-engineering-division/technical-committees/mechanisms-and-robotics) | JMR | 手指机构、连杆、驱动器、欠驱动手和机械设计 |
+
+如果研究的是软体手或软体夹爪，还可以重点看：
+
+- **Soft Robotics**
+- **IEEE Transactions on Soft Robotics（T-SRO）**
+
+### 知名会议
+
+| 正式名称 | 缩写 | 与机器人手的关系 |
+|---|---|---|
+| [IEEE International Conference on Robotics and Automation](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/) | ICRA | 最重要的综合机器人会议之一，灵巧操作论文非常多 |
+| [IEEE/RSJ International Conference on Intelligent Robots and Systems](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/) | IROS | 大型机器人会议；抓取、触觉和机器人手均很多 |
+| [Robotics: Science and Systems](https://roboticsconference.org/) | RSS | 机器人领域高水平会议；偏研究创新、算法与系统 |
+| [IEEE-RAS International Conference on Humanoid Robots](https://www.ieee-ras.org/humanoid-robotics/) | Humanoids | 仿人灵巧手、双臂操作和全身控制尤其相关 |
+| **IEEE-RAS International Conference on Soft Robotics** | RoboSoft | 软体手指、软夹爪、柔性传感器和软体驱动 |
+| **IEEE World Haptics Conference** | WHC | 触觉传感、力反馈、滑动检测和触觉交互 |
+
+如果只选最值得优先检索的，我建议先看：
+
+- 期刊：**T-RO、IJRR、RA-L**
+- 会议：**ICRA、IROS、RSS**
+- 触觉方向：**Transactions on Haptics、World Haptics**
+- 仿人灵巧手：**Humanoids**
+- 软体灵巧手：**Soft Robotics、RoboSoft**
+
+检索关键词可以先使用：`dexterous robotic hand`、`robotic grasping`、`in-hand manipulation`、`tactile sensing`、`slip detection`、`underactuated robotic hand`。
