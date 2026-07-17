@@ -1,0 +1,85 @@
+筛选时间窗口为 **2021年1月—2026年7月**，共 **67篇**。优先保留触觉、滑移、抓力控制、手内操作、柔性物体、精密插入等“视觉知道位置以后，仍然卡在机器手”的研究。
+
+## 一、触觉、滑移检测与抓力控制：12篇
+
+1. 2025 — [Bioarchitectonics-inspired soft grippers with cutaneous slip perception](https://doi.org/10.1126/sciadv.adx4206) — *Science Advances*
+2. 2025 — [Slip-actuated bionic tactile sensing system with dynamic DC generator integrated E-textile for dexterous robotic manipulation](https://doi.org/10.1038/s41467-025-61843-6) — *Nature Communications*
+3. 2025 — [Universal slip detection of robotic hand with tactile sensing](https://doi.org/10.3389/fnbot.2025.1478758) — *Frontiers in Neurorobotics*
+4. 2025 — [PVDF-based flexible piezoelectric tactile sensor for slip estimation using robotic gripper](https://doi.org/10.3389/frobt.2025.1691688) — *Frontiers in Robotics and AI*
+5. 2024 — [Artificial organic afferent nerves enable closed-loop tactile feedback for intelligent robot](https://doi.org/10.1038/s41467-024-51403-9) — *Nature Communications*
+6. 2024 — [A Multifunctional Tactile Sensory System for Robotic Intelligent Identification and Manipulation Perception](https://doi.org/10.1002/advs.202402705) — *Advanced Science*
+7. 2024 — [A Bioinspired Robotic Finger for Multimodal Tactile Sensing Powered by Fiber Optic Sensors](https://doi.org/10.1002/aisy.202400175) — *Advanced Intelligent Systems*
+8. 2024 — [Quantitative softness and texture bimodal haptic sensors for robotic clinical feature identification and intelligent picking](https://doi.org/10.1126/sciadv.adp0348) — *Science Advances*
+9. 2024 — [TacPalm: A Soft Gripper With a Biomimetic Optical Tactile Palm for Stable Precise Grasping](https://doi.org/10.1109/JSEN.2024.3471812) — *IEEE Sensors Journal*
+10. 2023 — [Recent Progress in Advanced Tactile Sensing Technologies for Soft Grippers](https://doi.org/10.1002/adfm.202306249) — *Advanced Functional Materials*，综述
+11. 2022 — [A Soft Barometric Tactile Sensor to Simultaneously Localize Contact and Estimate Normal Force With Validation to Detect Slip in a Robotic Gripper](https://doi.org/10.1109/LRA.2022.3205768) — *IEEE RA-L*
+12. 2021 — [Finger-Skin-Inspired Flexible Optical Sensor for Force Sensing and Slip Detection in Robotic Grasping](https://doi.org/10.1002/admt.202100285) — *Advanced Materials Technologies*
+
+## 二、灵巧手设计与手内操作：16篇
+
+13. 2026 — [Tactile-reactive gripper with an active palm for dexterous manipulation](https://doi.org/10.1038/s44182-026-00079-y) — *npj Robotics*
+14. 2025 — [RUKA: Rethinking the Design of Humanoid Hands with Learning](https://www.roboticsproceedings.org/rss21/p131.html) — *RSS 2025*
+15. 2025 — [A natural biomimetic prosthetic hand with neuromorphic tactile sensing for precise and compliant grasping](https://doi.org/10.1126/sciadv.adr9300) — *Science Advances*
+16. 2025 — [GeoDEx: A Unified Geometric Framework for Tactile Dexterous and Extrinsic Manipulation under Force Uncertainty](https://www.roboticsproceedings.org/rss21/p057.html) — *RSS 2025*
+17. 2025 — [In-Hand Singulation, Scooping, and Cable Untangling with a 5-DoF Tactile-Reactive Gripper](https://doi.org/10.1002/adrr.202500020) — *Advanced Robotics Research*
+18. 2024 — [Robot Synesthesia: In-Hand Manipulation with Visuotactile Sensing](https://doi.org/10.1109/ICRA57147.2024.10610532) — *ICRA 2024*
+19. 2024 — [Tactile-Driven Non-Prehensile Object Manipulation via Extrinsic Contact Mode Control](https://www.roboticsproceedings.org/rss20/p135.html) — *RSS 2024*
+20. 2024 — [SpringGrasp: Synthesizing Compliant, Dexterous Grasps under Shape Uncertainty](https://www.roboticsproceedings.org/rss20/p042.html) — *RSS 2024*
+21. 2024 — [Adaptive wrapping with active elastic band-based gripper for stable in-hand manipulation](https://www.sciencedirect.com/science/article/pii/S0924424724007374) — *Sensors and Actuators A*
+22. 2023 — [TacGNN: Learning Tactile-Based In-Hand Manipulation With a Blind Robot Using Hierarchical Graph Neural Network](https://doi.org/10.1109/LRA.2023.3264759) — *IEEE RA-L*
+23. 2023 — [Rotating without Seeing: Towards In-hand Dexterity through Touch](https://doi.org/10.15607/RSS.2023.XIX.036) — *RSS 2023*
+24. 2022 — [RBO Hand 3: A Platform for Soft Dexterous Manipulation](https://doi.org/10.1109/TRO.2022.3156806) — *IEEE Transactions on Robotics*
+25. 2022 — [Multi-Fingered In-Hand Manipulation With Various Object Properties Using Graph Convolutional Networks and Distributed Tactile Sensors](https://doi.org/10.1109/LRA.2022.3142417) — *IEEE RA-L*
+26. 2022 — [Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand](https://doi.org/10.1109/ICRA46639.2022.9812093) — *ICRA 2022*
+27. 2021 — [Integrated linkage-driven dexterous anthropomorphic robotic hand](https://doi.org/10.1038/s41467-021-27261-0) — *Nature Communications*
+28. 2021 — [Surprisingly Robust In-Hand Manipulation: An Empirical Study](https://doi.org/10.15607/RSS.2021.XVII.089) — *RSS 2021*
+
+## 三、精密装配、插入、线缆与薄片操作：16篇
+
+29. 2025 — [Reactive Diffusion Policy: Slow-Fast Visual-Tactile Policy Learning for Contact-Rich Manipulation](https://www.roboticsproceedings.org/rss21/p052.html) — *RSS 2025*
+30. 2025 — [ViTaSCOPE: Visuo-tactile Implicit Representation for In-hand Pose and Extrinsic Contact Estimation](https://www.roboticsproceedings.org/rss21/p054.html) — *RSS 2025*
+31. 2025 — [PP-Tac: Paper Picking Using Omnidirectional Tactile Feedback in Dexterous Robotic Hands](https://www.roboticsproceedings.org/rss21/p056.html) — *RSS 2025*
+32. 2025 — [Demonstrating REASSEMBLE: A Multimodal Dataset for Contact-rich Robotic Assembly and Disassembly](https://www.roboticsproceedings.org/rss21/p059.html) — *RSS 2025*
+33. 2025 — [Robust Peg-in-Hole Assembly under Uncertainties via Compliant and Interactive Contact-Rich Manipulation](https://www.roboticsproceedings.org/rss21/p060.html) — *RSS 2025*
+34. 2025 — [Advances in Robotic Peg-in-Hole Assembly: A Comprehensive Review](https://doi.org/10.1186/s10033-025-01349-w) — *Chinese Journal of Mechanical Engineering*，综述
+35. 2024 — [RoboPack: Learning Tactile-Informed Dynamics Models for Dense Packing](https://robo-pack.github.io/) — *RSS 2024*
+36. 2024 — [FOTS: A Fast Optical Tactile Simulator for Sim2Real Learning of Tactile-Motor Robot Manipulation Skills](https://doi.org/10.1109/LRA.2024.3396665) — *IEEE RA-L*
+37. 2024 — [Variable impedance control on contact-rich manipulation of a collaborative industrial mobile manipulator](https://doi.org/10.1016/j.rcim.2024.102896) — *Robotics and Computer-Integrated Manufacturing*
+38. 2023 — [Cable Routing and Assembly using Tactile-driven Motion Primitives](https://doi.org/10.1109/ICRA48891.2023.10161069) — *ICRA 2023*
+39. 2023 — [In-Hand Manipulation of Unknown Objects with Tactile Sensing for Insertion](https://doi.org/10.1109/IROS55552.2023.10341456) — *IROS 2023*
+40. 2023 — [Manipulation of Boltlike Fasteners Through Fingertip Tactile Perception in Robotic Assembly](https://doi.org/10.1109/TMECH.2023.3320519) — *IEEE/ASME Transactions on Mechatronics*
+41. 2022 — [Reinforcement Learning of Impedance Policies for Peg-in-Hole Tasks: Role of Asymmetric Matrices](https://doi.org/10.1109/LRA.2022.3191070) — *IEEE RA-L*
+42. 2022 — [Residual Learning From Demonstration: Adapting DMPs for Contact-Rich Manipulation](https://doi.org/10.1109/LRA.2022.3150024) — *IEEE RA-L*
+43. 2022 — [Wire Harness Assembly Process Supported by Collaborative Robots: Literature Review and Call for R&D](https://doi.org/10.3390/robotics11030065) — *Robotics*，综述
+44. 2021 — [Cable manipulation with a tactile-reactive gripper](https://doi.org/10.1177/02783649211027233) — *The International Journal of Robotics Research*
+
+## 四、布料、皮革及其他柔性物体：9篇
+
+45. 2024 — [Benchmarking the Sim-to-Real Gap in Cloth Manipulation](https://doi.org/10.1109/LRA.2024.3360814) — *IEEE RA-L*
+46. 2024 — [Learning Generalizable Vision-Tactile Robotic Grasping Strategy for Deformable Objects via Transformer](https://doi.org/10.1109/TMECH.2024.3400789) — *IEEE/ASME Transactions on Mechatronics*
+47. 2024 — [Unfolding the Literature: A Review of Robotic Cloth Manipulation](https://doi.org/10.1146/annurev-control-022723-033252) — *Annual Review of Control, Robotics, and Autonomous Systems*
+48. 2024 — [Efficient leather spreading operations by dual-arm robotic systems](https://doi.org/10.1038/s41598-024-66904-2) — *Scientific Reports*
+49. 2023 — [UnfoldIR: Tactile Robotic Unfolding of Cloth](https://doi.org/10.1109/LRA.2023.3284382) — *IEEE RA-L*
+50. 2023 — [Data-Driven Robotic Manipulation of Cloth-like Deformable Objects: The Present, Challenges and Future Prospects](https://doi.org/10.3390/s23052389) — *Sensors*，综述
+51. 2023 — [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://doi.org/10.15607/RSS.2023.XIX.016) — *RSS 2023*
+52. 2022 — [DextAIRity: Deformable Manipulation Can be a Breeze](https://doi.org/10.15607/RSS.2022.XVIII.017) — *RSS 2022*
+53. 2021 — [Contour Moments Based Manipulation of Composite Rigid-Deformable Objects With Finite Time Model Estimation and Shape/Position Control](https://doi.org/10.1109/TMECH.2021.3126383) — *IEEE/ASME Transactions on Mechatronics*
+
+## 五、食品、农业与易损物品抓取：14篇
+
+54. 2025 — [Integrating a Soft Pneumatic Gripper in a Robotic System for High-Speed Stable Handling of Raw Oysters](https://doi.org/10.3390/foods14162875) — *Foods*
+55. 2025 — [Review of robotic grippers for high-speed handling of fragile foods](https://doi.org/10.1080/01691864.2025.2508785) — *Advanced Robotics*
+56. 2024 — [Soft bionic gripper with tactile sensing and slip detection for damage-free grasping of fragile fruits and vegetables](https://doi.org/10.1016/j.compag.2024.108904) — *Computers and Electronics in Agriculture*
+57. 2024 — [A Soft-Containing Gripper for High-Speed Handling of Breadcrumb-Coated Oysters](https://doi.org/10.1002/rob.22488) — *Journal of Field Robotics*
+58. 2024 — [Design of Adaptive Grippers for Fruit-Picking Robots Considering Contact Behavior](https://doi.org/10.3390/agriculture14071082) — *Agriculture*
+59. 2024 — [Soft robotic grippers: A review on technologies, materials, and applications](https://www.sciencedirect.com/science/article/pii/S0924424724003741) — *Sensors and Actuators A*，综述
+60. 2023 — [Intelligent Soft Robotic Grippers for Agricultural and Food Product Handling: A Brief Review with a Focus on Design and Control](https://doi.org/10.1002/aisy.202300233) — *Advanced Intelligent Systems*
+61. 2023 — [Tendon-Driven Soft Robotic Gripper with Integrated Ripeness Sensing for Blackberry Harvesting](https://doi.org/10.1109/ICRA48891.2023.10160893) — *ICRA 2023*
+62. 2023 — [Angle-programmed tendril-like trajectories enable a multifunctional gripper with ultradelicacy, ultrastrength, and ultraprecision](https://doi.org/10.1038/s41467-023-39741-6) — *Nature Communications*
+63. 2023 — [Variable stiffness soft robotic gripper: design, development, and prospects](https://doi.org/10.1088/1748-3190/ad0b8c) — *Bioinspiration & Biomimetics*
+64. 2022 — [A Soft Gripper Design for Apple Harvesting with Force Feedback and Fruit Slip Detection](https://doi.org/10.3390/agriculture12111802) — *Agriculture*
+65. 2022 — [Challenges and Opportunities in Robotic Food Handling: A Review](https://doi.org/10.3389/frobt.2021.789107) — *Frontiers in Robotics and AI*
+66. 2022 — [Soft Robotic Grippers for Crop Handling or Harvesting: A Review](https://doi.org/10.1109/ACCESS.2022.3190863) — *IEEE Access*
+67. 2021 — [A Scooping-Binding Robotic Gripper for Handling Various Food Products](https://doi.org/10.3389/frobt.2021.640805) — *Frontiers in Robotics and AI*
+
+这批论文已经满足“最近五年内”和“50篇以上”。其中最符合你所说的“视觉已经基本解决，最后卡在手”的，是第 **1—12、17、23、29、31、33、38—44、49、54—58、61、64、67** 篇。
