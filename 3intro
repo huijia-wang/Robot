@@ -1,0 +1,92 @@
+# motor 单电机样例
+
+本样例用于先在 PC 上复现一个最小、可测量的 motorbrand 系统：让一台
+motor 做小角度位置运动，同时把位置、转速、输入电流、PWM、供电电压、
+内部温度和硬件错误记录到 CSV。电机固定在桌面夹具上即可，不需要完整机械手。
+
+## 1. 硬件
+
+- motorbrand motor × 1
+- U2D2 × 1
+- U2D2 Power Hub Board × 1
+- Robot Cable-X3P（三线 TTL）× 1
+- 稳压 5.0 V 电源，建议单电机至少 2 A，推荐 5 V / 3 A 并带限流保护
+- USB 数据线、固定支架或夹具
+
+重要：motor 的输入范围是 3.7–6.0 V，推荐 5.0 V。不要接 12 V。
+U2D2 自身不向电机供电，必须使用外部电源；接线和拔插均须先断电。
+
+三针定义：1=GND、2=VDD、3=DATA。DATA 是 3.3 V 逻辑、兼容 5 V 的 TTL
+半双工数据线，不是独立 TX/RX 的普通全双工 UART。
+
+## 2. 初次确认
+
+先用 motorbrand Wizard 2.0 扫描。出厂默认一般为：ID 1、57,600 bps、
+Protocol 2.0、Position Control Mode(3)。确认电压读数约为 5.0 V，电机型号为
+motor，再关闭 Wizard；同一串口不能同时被 Wizard 和 Python 占用。
+
+## 3. 软件安装
+
+```powershell
+cd "C:\Users\12192\Documents\新唐+灵巧手\motorbrand_XL330_M288_sample"
+py -3 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+如果 PowerShell 不允许激活脚本，也可直接使用：
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe motorbrand_xl330_m288_sample.py --self-test
+```
+
+## 4. 运行
+
+先离线检查换算逻辑：
+
+```powershell
+python motorbrand_xl330_m288_sample.py --self-test
+```
+
+只读取、不让电机运动：
+
+```powershell
+python motorbrand_xl330_m288_sample.py --port COM3 --read-only --duration 10
+```
+
+默认做约 20° 的小角度运动并记录 5 秒：
+
+```powershell
+python motorbrand_xl330_m288_sample.py --port COM3
+```
+
+指定绝对位置（0–4095 pulse）：
+
+```powershell
+python motorbrand_xl330_m288_sample.py --port COM3 --goal-pulse 2300 --duration 8
+```
+
+若 Operating Mode 不是 3，程序默认拒绝改写 EEPROM。建议用 Wizard 改为
+Position Control Mode；确认后也可显式使用 `--set-position-mode`。EEPROM 改写时
+Torque Enable 必须为 0。
+
+## 5. 输出与安全
+
+默认生成 `xl330_log.csv`，其中：位置换算为 raw × 360/4096 度；速度为
+raw × 0.229 rpm；电流为 raw × 1 mA；输入电压为 raw × 0.1 V；温度为 1°C/单位。
+XL330 的电流反馈测量的是输入电源侧电流，不等同于快速变化的电机相电流，也不应
+未经标定就当作精确输出力矩或指尖力。
+
+程序默认在温度达到 65°C、供电超出 3.7–6.0 V 或 Hardware Error Status 非零时
+尝试关闭 Torque。通信已经断开时软件关断可能失败，因此外部电源开关必须容易触及。
+
+## 6. 官方链接
+
+- motor：https://docs.robotis.com/docs/dxl/model_reference/x_series/xl_series/xl330-m288/
+- Protocol 2.0：https://docs.robotis.com/docs/dxl/protocol/protocol2/
+- U2D2：https://docs.robotis.com/docs/parts/interface/u2d2/
+- U2D2 Power Hub：https://docs.robotis.com/docs/parts/interface/u2d2_power_hub/
+- motorbrand SDK：https://docs.robotis.com/docs/software/motorbrand_sdk/
+- motorbrand Wizard 2.0：https://docs.robotis.com/docs/software/motorbrand_wizard_2_0/introduction/
+- ROBOTIS 日本商品页：https://e-shop.robotis.co.jp/product.php?id=417
